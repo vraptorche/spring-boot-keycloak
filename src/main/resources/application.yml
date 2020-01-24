@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-parameters:
+      resteasy.role.based.security: true
+      keycloak.embedded: true
+resteasy:
+  jaxrs:
+    app:
+      registration: property
+      classes: co.jware.keycloak.embedded.EmbeddedKeycloakApplication
