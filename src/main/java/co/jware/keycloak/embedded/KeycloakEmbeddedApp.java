@@ -6,6 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class KeycloakEmbeddedApp {
 
+
+
     public static void main(String[] args) {
         SpringApplication.run(KeycloakEmbeddedApp.class, args);
     }
